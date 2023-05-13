@@ -1,0 +1,40 @@
+###
+GET http://localhost:9000/ HTTP/1.1
+
+###
+GET http://localhost:9000/api/best HTTP/1.1
+
+###
+POST http://localhost:9000/api/register HTTP/1.1
+Content-Type:  application/json
+
+{
+    "username": "pachpiiiito",
+    "email": "juancho@pachiiito.com",
+    "password": "2767353"
+
+}
+
+###
+POST http://localhost:9000/api/login HTTP/1.1
+Content-Type:  application/json
+
+{
+    "username": "pachpiiiito",
+    "password": "2767353"
+
+}
+
+
+###
+DELETE http://localhost:9000/api/125 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/1 HTTP/1.1
+Content-Type:  application/json
+
+{
+    "username": "Messi ",
+    "email": "messi@gmail.com",
+    "password": "12345"
+}
